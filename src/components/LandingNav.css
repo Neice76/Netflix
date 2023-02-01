@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #DB202C;
+    --hover-color: #c41b26;
+}
+
+div .backgroundImage {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: radial-gradient(rgba(186, 177, 177, 0), rgba(14, 13, 13, 0.7)), url(./bg.jpg) no-repeat center center/cover;
+}
+
+div .navigation .signInButton {
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 1200px;
+}
+
+.freeMonthButton {
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 35px 10px;
+    font-size: 15px;
+}
+
+.freeMonthButton:hover, .signInButton:hover {
+    background-color: var(--hover-color);
+}
+
+div .landingPageBody {
+    margin-top: 150px;
+    text-align: center;
+}
+
+div .landingPageBody .title {
+    font-size: 90px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+div .landingPageBody .body, .body2 {
+    color: white;
+}
+
+div .landingPageBody .body {
+    font-size: 30px;
+}
+
+div .landingPageBody .body2 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+div .landingPageBody .emailForm {
+    margin-top: 15px;
+}
+
+div .emailInput {   
+    padding: 10px 25px 10px;
+}
+
+div .border {
+    width: 100%;
+    color: rgb(38, 38, 38);
+}
+
+.section2 .section2Title .section2Body {
+    color: white;
+}

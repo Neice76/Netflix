@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+  background-color: #111;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-color: #DB202C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.netflixLogo {
+  font-family: "Bebas Neue";
+  color: var(--primary-color);
+  margin-left: 20px;
+  letter-spacing: 1px;
+} 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   display: flex;
-  flex-direction: column;
+}
+
+.navigation .navLinks {
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation .navLinks p {
+  margin: 10px;
+  font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation .navLinks p:hover {
+  color: rgb(217, 217, 217);
 }
