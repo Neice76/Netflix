@@ -6,7 +6,7 @@ function NavigationBar() {
       <div className="navigation">
         <h1 className='netflixLogo'>Netflix</h1>
         <div className="navLinks">
-          <a href="/"><p>Home</p></a>
+          <a href="/home"><p>Home</p></a>
           <a href="/tvshows"><p>Tv Shows</p></a>
           <a href="/movies"><p>Movies</p></a>
         </div> 

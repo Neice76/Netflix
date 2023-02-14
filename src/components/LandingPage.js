@@ -18,19 +18,6 @@ function LandingPage() {
             </div>
           </div>
         </div>
-
-        <div className='border'></div>
-
-        <div className='section2'>
-          <h1 className='section2Title'>Enjoy on your Tv</h1>
-          <h2 className='section2Body'>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple Tv, Blu-ray players, and more.</h2>
-          <div className='tvAnimation'>
-            <img className='tvPicture'/>
-            <video autoplay playsInline>
-              <video preload="auto" playsinline="" poster="/assets/poster.png" src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" tabindex="-1"></video>
-            </video>
-          </div>
-        </div>
     </div>
   )
 }
