@@ -1,8 +1,11 @@
 import React from 'react';
 import LandingNavigationBar from './LandingNavigationBar';
+import { useNavigate } from 'react-router-dom';
 import './LandingNav.css';
 
 function LandingPage() {
+  let navigate = useNavigate();
+
   return (
     <div>
         <div className="backgroundImage">
@@ -14,7 +17,7 @@ function LandingPage() {
 
             <div className="emailForm">
               <input type="email" placeholder="Email address" className="emailInput"/>
-              <button className='freeMonthButton'>Get Started</button>
+              <button className='freeMonthButton' onClick={() => navigate("/registrationpage")}>Get Started</button>
             </div>
           </div>
         </div>
